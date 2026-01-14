@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobblemon Central</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #e5e5e5;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        header {
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: #888;
+        }
+
+        .section {
+            margin-bottom: 48px;
+        }
+
+        .section-title {
+            font-size: 0.85em;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #666;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+
+        .primary-link {
+            display: block;
+            background: #ff8c00;
+            color: #000;
+            text-decoration: none;
+            padding: 16px 24px;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .primary-link:hover {
+            background: #ffa500;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .link {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 0;
+            border-bottom: 1px solid #1a1a1a;
+            transition: color 0.2s;
+        }
+
+        .link:hover {
+            color: #ff8c00;
+        }
+
+        .link:last-child {
+            border-bottom: none;
+        }
+
+        .email {
+            color: #888;
+            text-decoration: none;
+        }
+
+        .email:hover {
+            color: #ff8c00;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid #1a1a1a;
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .subtitle {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cobblemon Central</h1>
+            <p class="subtitle">Servidor de Cobblemon</p>
+        </header>
+
+        <div class="section">
+            <div class="section-title">Principal</div>
+            <a href="https://www.lp-cobblemoncentral.com/" class="primary-link" target="_blank">
+                Acessar site oficial
+            </a>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Loja</div>
+            <div class="links">
+                <a href="http://loja.cobblemoncentral.com/" class="link" target="_blank">
+                    Visitar loja
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Comunidade</div>
+            <div class="links">
+                <a href="https://www.discord.gg/cobblemoncentral" class="link" target="_blank">
+                    Discord
+                </a>
+                <a href="https://www.youtube.com/@CobblemonCentral" class="link" target="_blank">
+                    YouTube
+                </a>
+                <a href="https://www.tiktok.com/@cobblemoncentral" class="link" target="_blank">
+                    TikTok
+                </a>
+                <a href="https://www.instagram.com/cobblemoncentral/" class="link" target="_blank">
+                    Instagram
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Desenvolvimento</div>
+            <div class="links">
+                <a href="https://github.com/cobblemoncentral" class="link" target="_blank">
+                    GitHub
+                </a>
+                <a href="https://modrinth.com/modpack/cobblemon-central" class="link" target="_blank">
+                    Modrinth
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Contato</div>
+            <a href="mailto:contato@enixstudios.com" class="email">
+                contato@enixstudios.com
+            </a>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Cobblemon Central</p>
+        </footer>
+    </div>
+</body>
+</html>
